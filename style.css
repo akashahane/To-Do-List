@@ -1,0 +1,109 @@
+* {
+  font-family: "Karla", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+}
+
+body {
+  background: linear-gradient(to right, #11998e, #38ef7d);
+}
+
+.app-container {
+  margin: auto;
+  margin-top: 10rem;
+  min-height: 20rem;
+  border-radius: 1rem !important;
+  background-color: #d5ffe7 !important;
+  padding: 1rem;
+}
+
+.input-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input {
+  width: 33.5rem;
+  height: 2.2rem;
+  border: none;
+  outline-color: #11998e;
+  border-radius: 1rem;
+  padding: 0.2rem 1rem;
+  font-size: 1rem;
+}
+
+.add-btn {
+  width: 3.5rem;
+  height: 2.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: #11998e;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.list-container {
+  padding: 1rem;
+}
+
+.checkbox {
+  margin-right: 0.5rem;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  height: 1rem;
+  width: 1rem;
+  background-color: #d5d5d5;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="checkbox"]:after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  font-size: 0.8rem;
+  color: white;
+  margin: 0.1rem;
+  display: none;
+}
+
+input[type="checkbox"]:hover {
+  background-color: #a5a5a5;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #11998e;
+}
+
+input[type="checkbox"]:checked:after {
+  display: block;
+}
+
+.list-item-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.list-btn {
+  margin-left: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: #11998e;
+  font-size: 1rem;
+  cursor: pointer;
+}
